@@ -1,0 +1,25 @@
+body{
+    background-color: silver;
+}
+
+h1{
+    color: darkblue;
+    text-align: center;
+}
+
+h2{
+    color: darkred;
+}
+
+img{
+    width: 120px;
+    height: 150px;
+}
+
+p{
+    font-size: 18px;
+}
+
+ul{
+    font-size: 18px;
+}
