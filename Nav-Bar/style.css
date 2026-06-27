@@ -1,0 +1,104 @@
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.menu{
+    background: linear-gradient(to right,#081229,#1b2a4a, #081229);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 5%;
+}
+
+.nav1{
+    font-weight: bold;
+    gap: 100;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.icon{
+    display: none;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  padding: 100px;
+}
+
+.img1 img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.about h3{
+    font-size: 28px;
+    color: #081229;
+}
+
+.about span{
+    color: #1b2a4a;
+    font-size: 30px;
+}
+
+.about p{
+    font-size: 18px;
+}
+
+.intro {
+  max-width: 500px;
+}
+
+footer{    
+background: linear-gradient(darkblue, black);
+color:white;
+text-align:center;
+padding: 20px;
+bottom: 0;
+width: 100%;
+position: fixed;
+}
+
+/* Mobile View */
+@media (max-width:550px){
+
+    .menu{
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    .menu a{
+        display: none;
+    }
+
+    .icon{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 25px;
+    }
+
+    #bar{
+        color: white;
+        font-size: 32px; /* Icon bara */
+    }
+}
