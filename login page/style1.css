@@ -1,0 +1,28 @@
+body{
+    background-color:#3f63e8;
+    font-family:Arial, sans-serif;
+}
+
+.box{
+    width:750px;
+    background-color:white;
+    border:1px solid #ccc;
+    border-radius:10px;
+}
+
+input{
+    width:220px;
+    height:40px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+button{
+    width:180px;
+    height:45px;
+    background-color:#3f63e8;
+    color:white;
+    border:none;
+    border-radius:5px;
+    font-size:16px;
+}
